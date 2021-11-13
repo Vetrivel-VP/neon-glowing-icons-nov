@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(18, 18, 18);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon {
+  height: 110px;
+  width: 100px;
+  border-radius: 20px;
+  display: inline-table;
+  margin: 35px;
+  padding: 20px;
+  box-shadow: inset 0px 0px 6px 2px rgba(255, 255, 255, 0.5),
+    7px 7px 7px rgba(0, 0, 0, 0.5);
+}
+
+.icon i {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 22px;
+}
+
+.icon:nth-child(3) i,
+.icon:nth-child(6) i {
+  color: #000;
+}
+
+.icon:nth-child(1) i {
+  background: #00acee;
+  border-radius: 20px;
+  box-shadow: inset 0px 4px 20px 0px rgba(255, 255, 255, 0.5),
+    -5px 20px 91px 20px rgba(39, 89, 147, 0.51);
+}
+
+.icon:nth-child(2) i {
+  background: #ee0800;
+  border-radius: 20px;
+  box-shadow: inset 0px 4px 20px 0px rgba(255, 255, 255, 0.5),
+    -5px 20px 91px 20px rgba(147, 39, 39, 0.51);
+}
+
+.icon:nth-child(3) i {
+  background: #fbf9f8;
+  border-radius: 20px;
+  box-shadow: inset 0px 4px 20px 0px rgba(255, 255, 255, 0.5),
+    -5px 20px 91px 20px rgba(255, 255, 255, 0.51);
+}
+
+.icon:nth-child(4) i {
+  background: #3b5998;
+  border-radius: 20px;
+  box-shadow: inset 0px 4px 20px 0px rgba(255, 255, 255, 0.5),
+    -5px 20px 91px 20px rgba(63, 101, 161, 0.51);
+}
+
+.icon:nth-child(5) i {
+  background: #075e54;
+  border-radius: 20px;
+  box-shadow: inset 0px 4px 20px 0px rgba(255, 255, 255, 0.5),
+    -5px 20px 91px 20px rgba(63, 161, 128, 0.51);
+}
+
+.icon:nth-child(6) i {
+  background: #8d8d8d;
+  border-radius: 20px;
+  box-shadow: inset 0px 4px 20px 0px rgba(255, 255, 255, 0.5),
+    -5px 20px 91px 20px rgba(189, 189, 189, 0.51);
+}
